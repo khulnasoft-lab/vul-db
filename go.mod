@@ -4,6 +4,7 @@ go 1.19
 
 require (
 	github.com/briandowns/spinner v1.23.0
+	github.com/fatih/color v1.10.0 // indirect
 	github.com/hashicorp/go-version v1.6.0
 	github.com/khulnasoft-lab/boltdb-fixtures v0.0.0-20230813205104-e4a570bb12b7
 	github.com/knqyf263/go-deb-version v0.0.0-20230223133812-3ed183d23422
@@ -17,7 +18,6 @@ require (
 	golang.org/x/text v0.12.0
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2
 	gopkg.in/cheggaaa/pb.v1 v1.0.28
-	gopkg.in/cheggaaa/pb.v2 v2.0.7
 	gopkg.in/yaml.v2 v2.4.0
 	k8s.io/utils v0.0.0-20230726121419-3b25d923346b
 )
@@ -25,11 +25,12 @@ require (
 require (
 	github.com/cpuguy83/go-md2man/v2 v2.0.2 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/fatih/color v1.10.0 // indirect
 	github.com/goccy/go-yaml v1.11.0 // indirect
+	github.com/kr/text v0.2.0 // indirect
 	github.com/mattn/go-colorable v0.1.8 // indirect
 	github.com/mattn/go-isatty v0.0.12 // indirect
 	github.com/mattn/go-runewidth v0.0.15 // indirect
+	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/rivo/uniseg v0.2.0 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
