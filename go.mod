@@ -25,7 +25,7 @@ require (
 	github.com/khulnasoft-lab/go-gem-version v1.0.0
 	github.com/khulnasoft-lab/go-npm-version v1.0.0
 	github.com/khulnasoft-lab/go-pep440-version v1.0.0
-	github.com/khulnasoft-lab/go-rpm-version v0.0.0-20231106221046-93d7f23756b1
+	github.com/khulnasoft-lab/go-rpm-version v0.0.0-20231107021420-631caefbb931
 	github.com/khulnasoft-lab/goversion v1.0.1
 )
 
