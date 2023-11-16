@@ -27,7 +27,7 @@ require (
 	github.com/khulnasoft-lab/go-pep440-version v1.0.0
 	github.com/khulnasoft-lab/go-rpm-version v0.0.0-20231107021420-631caefbb931
 	github.com/khulnasoft-lab/goversion v1.0.1
-	github.com/urfave/cli v1.22.14
+	github.com/urfave/cli/v2 v2.25.7
 )
 
 require (
