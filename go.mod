@@ -14,7 +14,7 @@ require (
 	golang.org/x/exp v0.0.0-20230522175609-2e198f4a06a1
 	golang.org/x/text v0.14.0
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2
-	gopkg.in/cheggaaa/pb.v1 v1.0.28
+	gopkg.in/cheggaaa/pb.v2 v2.0.7
 	gopkg.in/yaml.v2 v2.4.0
 	k8s.io/utils v0.0.0-20201110183641-67b214c5f920
 )
@@ -28,6 +28,7 @@ require (
 	github.com/khulnasoft-lab/go-rpm-version v0.0.0-20231107021420-631caefbb931
 	github.com/khulnasoft-lab/goversion v1.0.1
 	github.com/urfave/cli v1.22.14
+	gopkg.in/cheggaaa/pb.v1 v1.0.28
 )
 
 require (
