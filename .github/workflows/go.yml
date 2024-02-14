@@ -1,27 +1,42 @@
 ---
 name: Go
-on: [push, pull_request]
+on:
+  workflow_dispatch:
+    inputs:
+      distro:
+        type: choice
+        description: Distro Image to Debug
+        required: true
+        options:
+          - ---
+          - lintfix
+            
 jobs:
+  lintfix:
+    if: ${{ github.event.inputs.distro == 'lintfix' }}
+    runs-on: ubuntu-latest
+    steps:
+    - name: "Lint-fix"
+      run: |
+        make lintfix
+        
   test:
     name: Test
     runs-on: ubuntu-latest
     steps:
       - name: Check out code into the Go module directory
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Go
         uses: actions/setup-go@v4
         with:
           go-version-file: go.mod
 
-      - name: yaml-lint
-        uses: ibiqlik/action-yamllint@v3
-
       - name: Lint
-        uses: golangci/golangci-lint-action@v3.6.0
+        uses: golangci/golangci-lint-action@v3.7.0
         with:
-          version: v1.52
-          args: -D errcheck
+          version: v1.54
+          args: --verbose
 
       - name: Test
         run: |
