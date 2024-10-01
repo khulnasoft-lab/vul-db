@@ -9,10 +9,10 @@ require (
 	github.com/fatih/color v1.10.0 // indirect
 	github.com/goark/go-cvss v1.6.6
 	github.com/masahiro331/go-mvn-version v0.0.0-20210429150710-d3157d602a08
-	github.com/samber/lo v1.39.0
+	github.com/samber/lo v1.38.1
 	github.com/stretchr/testify v1.8.4
 	go.etcd.io/bbolt v1.3.8
-	golang.org/x/exp v0.0.0-20240909161429-701f63a606c0
+	golang.org/x/exp v0.0.0-20230522175609-2e198f4a06a1
 	golang.org/x/text v0.14.0
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2
 	gopkg.in/cheggaaa/pb.v1 v1.0.28
